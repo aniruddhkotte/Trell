@@ -2,6 +2,7 @@ package co.trell.aniruddh
 
 import android.net.Uri
 import android.os.Bundle
+import android.widget.Toast
 import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
 import co.trell.aniruddh.databinding.ActivityPlayerBinding
@@ -21,5 +22,6 @@ class PlayerActivity : AppCompatActivity() {
         videoView.start()
 
         //Sorry couldn't complete the assignment
+        Toast.makeText(this, "Sorry couldn't complete the project", Toast.LENGTH_LONG).show()
     }
 }
