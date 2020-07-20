@@ -19,5 +19,7 @@ class PlayerActivity : AppCompatActivity() {
         val videoView = findViewById<VideoView>(R.id.video_view)
         videoView.setVideoURI(videoUri)
         videoView.start()
+
+        //Sorry couldn't complete the assignment
     }
 }
